@@ -51,27 +51,44 @@
             <td class="abc">
               <label for="fname" class="required">フリガナ</label><p>必須</p>
             </td>
-            <input type="text" class="form_item_input" name="kana" placeholder="ヤマダタロウ">
+            <td>
+              <input type="text" class="form_item_input" name="kana" placeholder="ヤマダタロウ">
+            </td>
           </tr>
-          <tr>
-            <label for="fname" class="required">メールアドレス</label><p>必須</p>
-            <input type="text" class="form_item_input" name="mail"
-            placeholder="info@fast-creademy.jp">
+          <tr class="form_item">
+            <td class="abc">
+              <label for="fname" class="required">メールアドレス</label><p>必須</p>
+            </td>
+            <td>
+              <input type="text" class="form_item_input" name="mail" placeholder="info@fast-creademy.jp">
+            </td>
           </tr>
-          <tr>
-            <label for="fname" class="required">お問い合わせ項目</label><p>必須</p>
-            <select name="inquiry" id="inquiry">
-              <option value="select">選択してください</option>
-            </select>
+          <tr class="form_item">
+            <td class="abc">
+              <label for="fname" class="required">お問い合わせ項目</label><p>必須</p>
+            </td>
+            <td>
+              <select name="inquiry" id="inquiry">
+                <option value="select">選択してください</option>
+              </select>
+            </td>
           </tr>
-          <tr>
-            <label for="fname" class="required">お問い合わせ内容</label><p>必須</p>
-            <input type="text" class="form_item_input" placeholder="こちらにお問い合わせ内容をご記入ください">
+          <tr class="form_item">
+            <td class="abc">
+              <label for="fname" class="required">お問い合わせ内容</label><p>必須</p>
+            </td>
+            <td>
+              <input type="text" class="form_item_input" name="contact" placeholder="こちらにお問い合わせ内容をご記入ください">
+            </td>
           </tr>
-          <tr>
-            <label for="fname" class="required">個人情報保護方針</label><p>必須</p>
-            <input type="checkbox" id="privacy" name="privacy" required>
-            <label for="privacy"><a href="/path/to/your/privacy_policy.pdf" target="_blank">個人情報保護方針</a>に同意します。</label><br>
+          <tr class="form_item">
+            <td class="abc">
+              <label for="fname" class="required">個人情報保護方針</label><p>必須</p>
+            </td>
+            <td>
+              <input type="checkbox" id="privacy" name="privacy" required>
+              <label for="privacy"><a href="/path/to/your/privacy_policy.pdf" target="_blank">個人情報保護方針</a>に同意します。</label><br>
+            </td>
           </tr>
         </table>
     </section>
