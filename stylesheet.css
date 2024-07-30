@@ -125,7 +125,7 @@ h2{
 }
 .sec_05{
 	background-color: gray;
-	padding: 60px;
+	padding: 30px 0;
 	margin-bottom: 400px;
 }
 .sec_05 h2{
@@ -133,27 +133,28 @@ h2{
 	font-size: large;
 }
 .sec_05_left{
-	width: 40%;
+	width: 45%;
   text-align: center;
 	background-color: white;
 	padding: 40px 60px;
 }
 .btn01{
-	width: 100%;
 	text-align: center;
 	background-color: palevioletred;
 	color: #fff;
-	padding: 20px 80px;
+	padding: 20px;
+	display: block;
 }
 .btn02{
 	width: 100%;
 	text-align: center;
 	background-color: green;
 	color: #fff;
-	padding: 20px 80px;
+	padding: 20px;
+	display: block;
 }
 .sec_05_right{
-	width: 40%;
+	width: 45%;
   text-align: center;
 	background-color: white;
 	padding: 40px 60px;
